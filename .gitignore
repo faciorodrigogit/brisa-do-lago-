@@ -1,0 +1,8 @@
+# Fotos de banco de imagens (não usadas no site)
+img/
+
+# Arquivos de trabalho, não vão para o site
+index-anterior.html
+PROMPT.md
+FOTOS.md
+baixar-fotos.sh

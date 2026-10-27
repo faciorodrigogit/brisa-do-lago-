@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chalé Brisa do Lago | Chalé romântico com hidro em Sapucaí-Mirim – Serra da Mantiqueira</title>
+<meta name="description" content="Chalé para casais à beira de um lago em Sapucaí-Mirim (MG), na Serra da Mantiqueira. Hidromassagem dupla com vista, lareira, varanda privativa e café da manhã opcional. Reserve direto pelo WhatsApp.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Chalé Brisa do Lago – Serra da Mantiqueira">
+<meta property="og:description" content="Um chalé para dois à beira de um lago, entre araucárias. Hidro com vista, lareira e silêncio.">
+<meta property="og:image" content="img-real/foto8.jpg">
+<meta property="og:locale" content="pt_BR">
+<meta name="theme-color" content="#1E2621">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,300..600;1,7..72,300..500&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LodgingBusiness",
+  "name": "Chalé Brisa do Lago",
+  "description": "Chalé romântico para casais à beira de um lago, com hidromassagem dupla, lareira e varanda privativa, na Serra da Mantiqueira.",
+  "image": "img-real/foto8.jpg",
+  "telephone": "+55 12 98822-7967",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Estrada do Bicudo",
+    "addressLocality": "Sapucaí-Mirim",
+    "addressRegion": "MG",
+    "addressCountry": "BR"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": -22.734107, "longitude": -45.7680278 },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "79", "bestRating": "5" },
+  "amenityFeature": [
+    { "@type": "LocationFeatureSpecification", "name": "Hidromassagem dupla", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Lareira", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Wi-Fi Starlink", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Estacionamento gratuito", "value": true }
+  ]
+}
+</script>
+
+<style>
+:root{
+  --mist:#E8ECE5;
+  --paper:#F6F7F3;
+  --ink:#1E2621;
+  --ink-soft:#4A544D;
+  --moss:#46553C;
+  --cedar:#9A5B32;
+  --dusk:#D9C79F;
+  --night:#1E2621;
+  --line:rgba(30,38,33,.16);
+
+  --serif:'Literata', Georgia, serif;
+  --sans:'Hanken Grotesk', system-ui, sans-serif;
+
+  --wrap:1180px;
+  --gutter:clamp(20px,4vw,40px);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{
+  background:var(--mist);
+  color:var(--ink);
+  font:400 17px/1.65 var(--sans);
+  -webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--cedar);outline-offset:3px}
+
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--gutter)}
+
+h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.01em;line-height:1.12}
+h2{font-size:clamp(30px,4.2vw,46px);margin-bottom:24px;max-width:18ch}
+h3{font-size:22px;line-height:1.25}
+p{max-width:62ch}
+.muted{color:var(--ink-soft)}
+
+/* Botões */
+.btn{
+  display:inline-flex;align-items:center;gap:10px;
+  background:var(--ink);color:var(--paper);
+  padding:15px 26px;border-radius:999px;
+  font:600 16px/1 var(--sans);text-decoration:none;
+  transition:background-color .2s;
+}
+.btn:hover{background:var(--moss)}
+.btn svg{width:18px;height:18px;flex:none}
+@media (max-width:380px){.btn{padding:14px 20px;font-size:15px}}
+.btn{white-space:nowrap}
+.btn-light{background:var(--paper);color:var(--ink)}
+.btn-light:hover{background:var(--dusk)}
+.link{
+  font-weight:500;text-decoration:underline;text-decoration-color:var(--cedar);
+  text-underline-offset:5px;text-decoration-thickness:1px;
+}
+.link:hover{color:var(--cedar)}
+
+/* Cabeçalho */
+.site-header{
+  position:sticky;top:0;z-index:50;
+  background:rgba(232,236,229,.92);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+}
+.site-header .wrap{display:flex;align-items:center;justify-content:space-between;height:68px;gap:24px}
+.logo{font-family:var(--serif);font-size:22px;text-decoration:none;white-space:nowrap}
+.nav{display:flex;align-items:center;gap:30px;list-style:none;font-size:15px}
+.nav a{text-decoration:none}
+.nav a:not(.btn):hover{color:var(--cedar)}
+.nav .btn{padding:11px 20px;font-size:15px}
+.menu-btn{display:none;width:44px;height:44px;background:none;border:0;border-radius:999px;color:var(--ink);cursor:pointer;position:relative;flex:none}
+.menu-btn span{position:absolute;left:12px;right:12px;height:1.5px;background:currentColor;border-radius:2px;transition:transform .25s,opacity .2s}
+.menu-btn span:nth-child(1){top:15px}
+.menu-btn span:nth-child(2){top:21px}
+.menu-btn span:nth-child(3){top:27px}
+.menu-btn[aria-expanded="true"] span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.menu-btn[aria-expanded="true"] span:nth-child(2){opacity:0}
+.menu-btn[aria-expanded="true"] span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+.menu-btn:hover{background:rgba(30,38,33,.06)}
+@media (prefers-reduced-motion:reduce){.menu-btn span{transition:none}}
+@media (max-width:860px){
+  .site-header .wrap{position:relative}
+  .menu-btn{display:block;margin-left:auto;order:2}
+  .nav{order:1}
+  .nav{gap:12px}
+  .nav li:not(:last-child){display:none}
+  .nav .btn{padding:10px 16px}
+  .nav.open{flex-wrap:wrap}
+  .mobile-menu{display:none;position:absolute;top:100%;left:0;right:0;background:var(--mist);border-bottom:1px solid var(--line);list-style:none;padding:8px var(--gutter) 16px}
+  .mobile-menu.open{display:block}
+  .mobile-menu a{display:block;padding:12px 0;text-decoration:none;font-size:17px;border-top:1px solid var(--line)}
+  .mobile-menu li:first-child a{border-top:0}
+}
+@media (min-width:861px){.mobile-menu{display:none}}
+.nav .sm{display:none}
+@media (max-width:480px){
+  .site-header .wrap{gap:10px}
+  .nav .lg{display:none}
+  .nav .sm{display:inline}
+}
+@media (max-width:360px){.logo{font-size:19px}.menu-btn{width:40px}.nav .btn{padding:9px 13px;font-size:14px}}
+
+/* Hero */
+.hero{padding:clamp(40px,7vw,96px) 0 clamp(64px,9vw,120px)}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(32px,6vw,88px);align-items:end}
+.hero-place{font-size:15px;color:var(--ink-soft);margin-bottom:28px}
+.hero h1{font-size:clamp(42px,6.6vw,84px);font-weight:300;line-height:1.02;letter-spacing:-.025em;margin-bottom:28px}
+.hero-lead{font-size:19px;color:var(--ink-soft);margin-bottom:36px;max-width:34em}
+.hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:20px 28px}
+.hero-rating{margin-top:40px;padding-top:20px;border-top:1px solid var(--line);font-size:15px;color:var(--ink-soft);max-width:34em}
+.hero-rating strong{color:var(--ink);font-weight:600}
+.hero figure{justify-self:end;width:100%;max-width:440px}
+.hero figure img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:4px}
+figcaption{font-size:14px;color:var(--ink-soft);margin-top:10px}
+@media (max-width:700px){
+  .hero .wrap{grid-template-columns:1fr}
+  .hero figure{justify-self:start;max-width:420px}
+}
+
+/* O chalé */
+.about{padding:clamp(64px,9vw,120px) 0;background:var(--paper)}
+.about .wrap{display:grid;grid-template-columns:5fr 7fr;gap:clamp(32px,6vw,88px)}
+.about-text p+p{margin-top:18px}
+.facts{display:grid;grid-template-columns:repeat(3,auto);justify-content:start;gap:12px 40px;margin-top:40px;padding-top:24px;border-top:1px solid var(--line)}
+.facts dt{font-size:14px;color:var(--ink-soft)}
+.facts dd{font-family:var(--serif);font-size:20px}
+.about-photos{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start}
+.about-photos figure:last-child{margin-top:72px}
+.about-photos img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:4px}
+@media (max-width:860px){
+  .about .wrap{grid-template-columns:1fr}
+  .facts{gap:12px 28px}
+  .about-photos figure:last-child{margin-top:40px}
+  .about-photos{max-width:560px}
+}
+
+/* Um dia no chalé: manhã → noite */
+.day-intro{padding-top:clamp(64px,9vw,120px);padding-bottom:48px}
+.day{display:grid;grid-template-columns:repeat(3,1fr)}
+.moment{padding:40px clamp(20px,2.6vw,36px) 48px;display:flex;flex-direction:column}
+.moment:nth-child(1){background:#DCE3DA}
+.moment:nth-child(2){background:var(--dusk)}
+.moment:nth-child(3){background:var(--night);color:var(--paper)}
+.moment time{font-family:var(--serif);font-size:clamp(44px,5vw,64px);font-weight:300;line-height:1;letter-spacing:-.02em;margin-bottom:28px}
+.moment img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:4px;margin-bottom:28px}
+.moment h3{margin-bottom:12px}
+.moment p{font-size:16px;opacity:.85}
+.moment .link{margin-top:auto;padding-top:24px;align-self:flex-start}
+.moment:nth-child(3) .link{text-decoration-color:var(--dusk)}
+.moment:nth-child(3) .link:hover{color:var(--dusk)}
+@media (max-width:860px){
+  .day{grid-template-columns:1fr}
+  .moment{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);column-gap:32px;align-content:start}
+  .moment img{grid-column:1;grid-row:1 / span 5;margin-bottom:0}
+  .moment > :not(img){grid-column:2}
+  .moment time{margin-bottom:16px}
+  .moment .link{padding-top:16px}
+}
+@media (max-width:560px){
+  .day{margin:0 calc(var(--gutter) * -1)}
+  .moment{display:flex;padding:40px var(--gutter) 48px}
+  .moment img{margin-bottom:24px}
+}
+
+/* Comodidades */
+.amenities{padding:clamp(64px,9vw,120px) 0}
+.amenities .wrap{display:grid;grid-template-columns:4fr 8fr;gap:clamp(32px,6vw,88px)}
+.amen-list{display:grid;grid-template-columns:1fr 1fr;gap:0 48px}
+.amen-group{padding:22px 0;border-top:1px solid var(--line)}
+.amen-group dt{font-family:var(--serif);font-size:20px;margin-bottom:6px}
+.amen-group dd{color:var(--ink-soft);font-size:16px}
+@media (max-width:860px){
+  .amenities .wrap{grid-template-columns:1fr}
+  .amen-list{grid-template-columns:1fr}
+}
+
+/* Fotos */
+.photos{padding:clamp(64px,9vw,120px) 0;background:var(--paper)}
+.photos-head{display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap;margin-bottom:40px}
+.photos-head h2{margin-bottom:0}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:28px 16px;list-style:none}
+.grid button{all:unset;cursor:zoom-in;display:block;width:100%}
+.grid button:focus-visible{outline:2px solid var(--cedar);outline-offset:4px}
+.grid img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:4px;transition:opacity .2s}
+.grid button:hover img{opacity:.88}
+.grid span{display:block;font-size:14px;color:var(--ink-soft);margin-top:8px}
+@media (max-width:860px){.grid{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:560px){.grid{grid-template-columns:repeat(2,1fr);gap:20px 12px}}
+
+dialog.viewer{
+  border:0;padding:0;background:transparent;max-width:none;max-height:none;
+  width:100vw;height:100dvh;color:var(--paper);
+}
+dialog.viewer::backdrop{background:rgba(20,26,22,.94)}
+.viewer-inner{height:100%;display:grid;grid-template-rows:auto 1fr auto;padding:16px var(--gutter) 24px}
+.viewer-top{display:flex;justify-content:space-between;align-items:center;font-size:15px}
+.viewer-top button,.viewer-nav button{
+  background:none;border:1px solid rgba(246,247,243,.35);color:var(--paper);
+  border-radius:999px;padding:9px 18px;font:500 15px var(--sans);cursor:pointer;
+}
+.viewer-top button:hover,.viewer-nav button:hover{border-color:var(--paper)}
+.viewer figure{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:0;padding:16px 0}
+.viewer figure img{max-height:calc(100dvh - 190px);width:auto;max-width:100%;object-fit:contain;border-radius:4px}
+.viewer figcaption{color:rgba(246,247,243,.75)}
+.viewer-nav{display:flex;justify-content:center;gap:12px}
+
+/* Avaliações */
+.reviews{padding:clamp(64px,9vw,120px) 0}
+.reviews-lead{font-size:19px;color:var(--ink-soft);margin-bottom:48px}
+.quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+.quotes blockquote{border-top:1px solid var(--ink);padding-top:24px}
+.quotes blockquote p{font-family:var(--serif);font-size:20px;line-height:1.5;margin-bottom:20px}
+.quotes .sample cite{color:var(--cedar)}
+.quotes cite{font-style:normal;font-size:15px;color:var(--ink-soft)}
+@media (max-width:860px){.quotes{grid-template-columns:1fr}}
+
+/* Como chegar */
+.location{padding:clamp(64px,9vw,120px) 0;background:var(--paper)}
+.location .wrap{display:grid;grid-template-columns:5fr 7fr;gap:clamp(32px,6vw,72px);align-items:start}
+.location p+p{margin-top:16px}
+.nearby{list-style:none;margin-top:32px}
+.nearby li{padding:14px 0;border-top:1px solid var(--line)}
+.map{width:100%;aspect-ratio:4/3;border:0;border-radius:4px;filter:saturate(.7)}
+@media (max-width:860px){.location .wrap{grid-template-columns:1fr}}
+
+/* Reservar */
+.book{background:var(--night);color:var(--paper);padding:clamp(72px,10vw,136px) 0}
+.book .wrap{display:grid;grid-template-columns:7fr 5fr;gap:48px;align-items:end}
+.book h2{font-size:clamp(36px,5.4vw,64px);font-weight:300;max-width:14ch}
+.book p{color:rgba(246,247,243,.78);font-size:18px;margin-bottom:32px}
+.book .alt{margin-top:28px;font-size:15px;color:rgba(246,247,243,.6)}
+.book .alt a{color:var(--paper)}
+@media (max-width:860px){.book .wrap{grid-template-columns:1fr}}
+
+/* Perguntas */
+.faq{padding:clamp(64px,9vw,120px) 0}
+.faq .wrap{display:grid;grid-template-columns:4fr 8fr;gap:clamp(32px,6vw,88px)}
+.faq details{border-top:1px solid var(--line)}
+.faq details:last-child{border-bottom:1px solid var(--line)}
+.faq summary{
+  list-style:none;cursor:pointer;padding:22px 40px 22px 0;position:relative;
+  font-family:var(--serif);font-size:20px;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{
+  content:"";position:absolute;right:6px;top:50%;width:10px;height:10px;
+  border-right:1.5px solid var(--ink);border-bottom:1.5px solid var(--ink);
+  transform:translateY(-70%) rotate(45deg);transition:transform .2s;
+}
+.faq details[open] summary::after{transform:translateY(-30%) rotate(-135deg)}
+.faq details p{padding-bottom:24px;color:var(--ink-soft)}
+@media (max-width:860px){.faq .wrap{grid-template-columns:1fr}}
+
+/* Rodapé */
+footer{border-top:1px solid var(--line);padding:48px 0 calc(48px + env(safe-area-inset-bottom))}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px 48px;font-size:15px;color:var(--ink-soft)}
+footer .logo{color:var(--ink)}
+footer ul{list-style:none;display:flex;flex-wrap:wrap;gap:8px 32px}
+footer a{text-decoration:none}
+footer a:hover{color:var(--cedar)}
+
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="#" class="logo">Brisa do Lago</a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+    <ul class="nav">
+      <li><a href="#chale">O chalé</a></li>
+      <li><a href="#dia">Um dia aqui</a></li>
+      <li><a href="#fotos">Fotos</a></li>
+      <li><a href="#chegar">Como chegar</a></li>
+      <li><a class="btn" href="https://wa.me/5512988227967?text=Ol%C3%A1!%20Vi%20o%20site%20do%20Chal%C3%A9%20Brisa%20do%20Lago%20e%20gostaria%20de%20consultar%20datas." target="_blank" rel="noopener"><span class="lg">Consultar datas</span><span class="sm">Reservar</span></a></li>
+    </ul>
+    <ul class="mobile-menu" id="mobile-menu">
+      <li><a href="#chale">O chalé</a></li>
+      <li><a href="#dia">Um dia aqui</a></li>
+      <li><a href="#comodidades">O que tem no chalé</a></li>
+      <li><a href="#fotos">Fotos</a></li>
+      <li><a href="#chegar">Como chegar</a></li>
+      <li><a href="#duvidas">Dúvidas</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="hero-place">Sapucaí-Mirim, Serra da Mantiqueira (MG)</p>
+      <h1>Um chalé para dois à beira de um lago, entre araucárias.</h1>
+      <p class="hero-lead">Hidromassagem dupla de frente para a mata, lareira para as noites frias e nenhum vizinho à vista. A 4 km do centro, longe o bastante para ouvir só os pássaros.</p>
+      <div class="hero-actions">
+        <a class="btn" href="https://wa.me/5512988227967?text=Ol%C3%A1!%20Vi%20o%20site%20do%20Chal%C3%A9%20Brisa%20do%20Lago%20e%20gostaria%20de%20consultar%20datas." target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3c.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+          Consultar datas no WhatsApp
+        </a>
+        <a class="link" href="#fotos">Ver as fotos</a>
+      </div>
+      <p class="hero-rating"><strong>Nota 5,0 em 79 avaliações</strong> no Airbnb, onde a anfitriã é Superhost. O que os hóspedes mais elogiam é o cuidado dela com cada detalhe.</p>
+    </div>
+    <figure>
+      <img src="img-real/foto1.jpg" width="600" height="800" alt="O chalé de madeira entre araucárias, com o lago em primeiro plano e montanhas ao fundo">
+      <figcaption>O chalé visto da margem do lago.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="about" id="chale">
+  <div class="wrap">
+    <div class="about-text">
+      <h2>Feito para casais que querem sumir por uns dias.</h2>
+      <p>O Brisa do Lago é um chalé só, numa propriedade com lago de peixes e araucárias em Sapucaí-Mirim. Quarto, sala e cozinha dividem o mesmo espaço sob um forro de madeira, com janelas grandes para o verde.</p>
+      <p>A chegada é por fechadura eletrônica, no horário de vocês. Se quiserem, a cesta de café da manhã aparece na porta de manhã. No resto do tempo, ninguém interrompe.</p>
+      <dl class="facts">
+        <div><dt>Hóspedes</dt><dd>Até 2</dd></div>
+        <div><dt>Cama</dt><dd>Queen</dd></div>
+        <div><dt>Do centro</dt><dd>4 km</dd></div>
+      </dl>
+    </div>
+    <div class="about-photos">
+      <figure>
+        <img src="img-real/foto3.jpg" width="600" height="800" loading="lazy" alt="Cama queen com enxoval branco, cabeceira de ripas de madeira e luminárias de leitura">
+        <figcaption>O quarto, sob o forro de cedro.</figcaption>
+      </figure>
+      <figure>
+        <img src="img-real/foto10.jpg" width="600" height="800" loading="lazy" alt="Sala com duas poltronas, TV e porta de vidro para a varanda com vista para o vale">
+        <figcaption>A sala abre para a varanda.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section id="dia">
+  <div class="wrap day-intro">
+    <h2>Um dia no chalé</h2>
+    <p class="muted">Não há programação. Mas, se houvesse, seria mais ou menos assim.</p>
+  </div>
+  <div class="wrap"><div class="day">
+    <article class="moment">
+      <time>8h</time>
+      <img src="img-real/foto2.jpg" width="450" height="800" loading="lazy" alt="Duas cadeiras de madeira num deck de pedriscos à beira do lago, com araucárias ao redor">
+      <h3>Café no deck do lago</h3>
+      <p>A cesta de café da manhã chega na porta: pães, bolo caseiro, frutas e quitutes da serra. Dá para levar até as cadeiras na beira d'água e ficar por lá.</p>
+      <a class="link" href="https://wa.me/5512988227967?text=Ol%C3%A1!%20Gostaria%20de%20saber%20o%20valor%20da%20cesta%20de%20caf%C3%A9%20da%20manh%C3%A3." target="_blank" rel="noopener">Perguntar o valor da cesta</a>
+    </article>
+    <article class="moment">
+      <time>17h</time>
+      <img src="img-real/foto6.jpg" width="600" height="800" loading="lazy" alt="Banheira de hidromassagem junto a uma janela de vidro com vista para a mata e araucárias">
+      <h3>Hidro com a mata na janela</h3>
+      <p>A hidromassagem dupla fica no canto de duas janelas de vidro, de frente para o verde. Os sais de banho já estão lá esperando.</p>
+    </article>
+    <article class="moment">
+      <time>21h</time>
+      <img src="img-real/foto5.jpg" width="800" height="600" loading="lazy" alt="Ambiente integrado com hidromassagem, cama de casal, poltronas e mesa redonda sob forro de madeira">
+      <h3>Lareira, vinho e fondue</h3>
+      <p>Quando a serra esfria, acende a lareira. A cozinha tem aparelho de fondue, e o Wi-Fi Starlink segura um filme sem travar.</p>
+    </article>
+  </div></div>
+</section>
+
+<section class="amenities" id="comodidades">
+  <div class="wrap">
+    <div>
+      <h2>O que tem no chalé</h2>
+      <p class="muted">Tudo que costuma faltar em chalé de serra, a anfitriã já pensou antes.</p>
+    </div>
+    <dl class="amen-list">
+      <div class="amen-group"><dt>Banho</dt><dd>Hidromassagem dupla com vista, chuveiro a gás, roupões, secador e amenities com sais de banho.</dd></div>
+      <div class="amen-group"><dt>Quarto</dt><dd>Cama queen com enxoval de 300 fios, ar-condicionado quente e frio e ventilador de teto.</dd></div>
+      <div class="amen-group"><dt>Cozinha</dt><dd>Cooktop, forno, airfryer, micro-ondas, frigobar, Nespresso e aparelho de fondue.</dd></div>
+      <div class="amen-group"><dt>Para as noites frias</dt><dd>Lareira e varanda privativa com vista para o lago e as montanhas.</dd></div>
+      <div class="amen-group"><dt>Chegada</dt><dd>Self check-in com fechadura inteligente e vaga de estacionamento dentro da propriedade, sem custo.</dd></div>
+      <div class="amen-group"><dt>Conexão</dt><dd>Wi-Fi Starlink, que funciona bem mesmo no meio da serra.</dd></div>
+      <div class="amen-group"><dt>Café da manhã</dt><dd>Opcional, em cesta entregue no chalé. O valor é combinado na reserva.</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="photos" id="fotos">
+  <div class="wrap">
+    <div class="photos-head">
+      <h2>Fotos do chalé</h2>
+      <p class="muted">Toque numa foto para ampliar.</p>
+    </div>
+    <ul class="grid" id="grid">
+      <li><button type="button"><img src="img-real/foto8.jpg" width="368" height="800" loading="lazy" alt="O chalé refletido no lago, com uma araucária ao lado"><span>O chalé refletido no lago</span></button></li>
+      <li><button type="button"><img src="img-real/foto1.jpg" width="600" height="800" loading="lazy" alt="O chalé entre araucárias, visto da margem do lago"><span>Visto da margem</span></button></li>
+      <li><button type="button"><img src="img-real/foto2.jpg" width="450" height="800" loading="lazy" alt="Deck com duas cadeiras de madeira à beira do lago"><span>Deck à beira do lago</span></button></li>
+      <li><button type="button"><img src="img-real/foto12.jpg" width="600" height="800" loading="lazy" alt="Hidromassagem dupla junto à janela de canto"><span>Hidromassagem</span></button></li>
+      <li><button type="button"><img src="img-real/foto6.jpg" width="600" height="800" loading="lazy" alt="Hidromassagem com vista para a mata pela janela"><span>A vista da hidro</span></button></li>
+      <li><button type="button"><img src="img-real/foto5.jpg" width="800" height="600" loading="lazy" alt="Ambiente integrado com hidro, cama, poltronas e mesa"><span>Ambiente integrado</span></button></li>
+      <li><button type="button"><img src="img-real/foto3.jpg" width="600" height="800" loading="lazy" alt="Cama queen com cabeceira de madeira"><span>Quarto</span></button></li>
+      <li><button type="button"><img src="img-real/foto11.jpg" width="600" height="800" loading="lazy" alt="Quarto visto de longe, com o forro de madeira inclinado"><span>Forro de cedro</span></button></li>
+      <li><button type="button"><img src="img-real/foto10.jpg" width="600" height="800" loading="lazy" alt="Sala com poltronas, TV e porta para a varanda"><span>Sala e varanda</span></button></li>
+      <li><button type="button"><img src="img-real/foto9.jpg" width="800" height="600" loading="lazy" alt="Cozinha com bancada escura e mesa redonda para dois"><span>Cozinha</span></button></li>
+      <li><button type="button"><img src="img-real/foto7.jpg" width="600" height="800" loading="lazy" alt="Box do banheiro com revestimento de mármore branco e janela"><span>Banheiro</span></button></li>
+      <li><button type="button"><img src="img-real/foto4.jpg" width="600" height="800" loading="lazy" alt="Pia do banheiro com espelho redondo e mármore branco"><span>Pia do banheiro</span></button></li>
+    </ul>
+  </div>
+</section>
+
+<dialog class="viewer" id="viewer" aria-label="Foto ampliada">
+  <div class="viewer-inner">
+    <div class="viewer-top">
+      <span id="viewer-count"></span>
+      <button type="button" id="viewer-close">Fechar</button>
+    </div>
+    <figure>
+      <img id="viewer-img" src="" alt="">
+      <figcaption id="viewer-cap"></figcaption>
+    </figure>
+    <div class="viewer-nav">
+      <button type="button" id="viewer-prev">Anterior</button>
+      <button type="button" id="viewer-next">Próxima</button>
+    </div>
+  </div>
+</dialog>
+
+<section class="reviews" id="avaliacoes">
+  <div class="wrap">
+    <h2>O que contam os casais que já ficaram aqui</h2>
+    <p class="reviews-lead">Nota 5,0 em 79 avaliações no Airbnb e nota máxima no Google. Hospitalidade, café da manhã, limpeza e vista são o que mais aparece nos comentários.</p>
+    <div class="quotes">
+      <!-- TEXTOS DE EXEMPLO: trocar pelas avaliações reais antes de publicar -->
+      <blockquote class="sample">
+        <p>A cesta de café da manhã chegou cedinho na porta, com bolo ainda morno. Tomamos no deck olhando o lago.</p>
+        <cite>Texto de exemplo, substituir por avaliação real</cite>
+      </blockquote>
+      <blockquote class="sample">
+        <p>A anfitriã pensou em tudo: sais de banho na hidro, lenha separada para a lareira e dicas de restaurante na região.</p>
+        <cite>Texto de exemplo, substituir por avaliação real</cite>
+      </blockquote>
+      <blockquote class="sample">
+        <p>Chalé impecável de limpo e muito silencioso. A vista da hidromassagem no fim da tarde vale a viagem.</p>
+        <cite>Texto de exemplo, substituir por avaliação real</cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="location" id="chegar">
+  <div class="wrap">
+    <div>
+      <h2>Como chegar</h2>
+      <p>Estrada do Bicudo, Sapucaí-Mirim (MG), a cerca de 4 km do centro. Perto de Campos do Jordão, Santo Antônio do Pinhal, São Bento do Sapucaí e Gonçalves.</p>
+      <p class="muted">Depois de reservar, a anfitriã manda a localização exata e as instruções de chegada pelo WhatsApp.</p>
+      <ul class="nearby">
+        <li>Cachoeiras da Mantiqueira</li>
+        <li>Restaurantes de montanha na região</li>
+        <li>Olivais e vinícolas locais</li>
+        <li>Pedra do Baú, em São Bento do Sapucaí</li>
+      </ul>
+    </div>
+    <iframe class="map" title="Mapa com a localização do Chalé Brisa do Lago" src="https://maps.google.com/maps?q=-22.734107,-45.7680278&z=13&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>
+
+<section class="book" id="reservar">
+  <div class="wrap">
+    <h2>Reserve direto com a anfitriã.</h2>
+    <div>
+      <p>Mande as datas pelo WhatsApp e ela responde com disponibilidade, valores e condições.</p>
+      <a class="btn btn-light" href="https://wa.me/5512988227967?text=Ol%C3%A1!%20Vi%20o%20site%20do%20Chal%C3%A9%20Brisa%20do%20Lago%20e%20gostaria%20de%20consultar%20datas." target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3c.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+        Consultar datas no WhatsApp
+      </a>
+      <p class="alt">Prefere uma plataforma? O chalé também está no <a href="[LINK AIRBNB]">Airbnb</a> e no <a href="[LINK BOOKING]">Booking</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="faq" id="duvidas">
+  <div class="wrap">
+    <h2>Dúvidas frequentes</h2>
+    <div>
+      <details>
+        <summary>Quantas pessoas o chalé acomoda?</summary>
+        <p>Até duas. O chalé foi pensado para casais.</p>
+      </details>
+      <details>
+        <summary>O café da manhã está incluído?</summary>
+        <p>É opcional. Vem numa cesta entregue no chalé, e o valor é combinado na hora de reservar.</p>
+      </details>
+      <details>
+        <summary>Como funciona o check-in?</summary>
+        <p>Pela fechadura inteligente. Vocês recebem a senha antes de chegar e entram sem precisar encontrar ninguém.</p>
+      </details>
+      <details>
+        <summary>Qual o horário de check-in e check-out?</summary>
+        <p>[CONFIRMAR] Check-in a partir das 14h e check-out até as 11h. Para outro horário, é só perguntar.</p>
+      </details>
+      <details>
+        <summary>Posso levar meu pet?</summary>
+        <p>[CONFIRMAR] No momento o chalé não recebe animais de estimação.</p>
+      </details>
+      <details>
+        <summary>Tem internet?</summary>
+        <p>Tem. Wi-Fi Starlink via satélite, estável mesmo na serra.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <a href="#" class="logo">Brisa do Lago</a>
+    <ul>
+      <li><a href="https://wa.me/5512988227967" target="_blank" rel="noopener">WhatsApp (12) 98822-7967</a></li>
+      <li><a href="[LINK INSTAGRAM]">Instagram [@CONFIRMAR]</a></li>
+      <li>Sapucaí-Mirim, Serra da Mantiqueira (MG)</li>
+    </ul>
+    <p>© 2026 Chalé Brisa do Lago</p>
+  </div>
+</footer>
+
+
+<script>
+(() => {
+  const mb = document.querySelector('.menu-btn'), mm = document.getElementById('mobile-menu');
+  mb.addEventListener('click', () => {
+    const open = mm.classList.toggle('open');
+    mb.setAttribute('aria-expanded', open);
+    mb.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
+  });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && mm.classList.contains('open')) mb.click(); });
+  mm.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    mm.classList.remove('open'); mb.setAttribute('aria-expanded', 'false'); mb.setAttribute('aria-label', 'Abrir menu');
+  }));
+})();
+(() => {
+  const items = [...document.querySelectorAll('#grid button')];
+  const dlg = document.getElementById('viewer');
+  const img = document.getElementById('viewer-img');
+  const cap = document.getElementById('viewer-cap');
+  const count = document.getElementById('viewer-count');
+  let i = 0;
+  const show = n => {
+    i = (n + items.length) % items.length;
+    const src = items[i].querySelector('img');
+    img.src = src.src; img.alt = src.alt;
+    cap.textContent = items[i].querySelector('span').textContent;
+    count.textContent = (i + 1) + ' de ' + items.length;
+  };
+  items.forEach((b, n) => b.addEventListener('click', () => { show(n); dlg.showModal(); }));
+  document.getElementById('viewer-close').onclick = () => dlg.close();
+  document.getElementById('viewer-prev').onclick = () => show(i - 1);
+  document.getElementById('viewer-next').onclick = () => show(i + 1);
+  dlg.addEventListener('keydown', e => {
+    if (e.key === 'ArrowLeft') show(i - 1);
+    if (e.key === 'ArrowRight') show(i + 1);
+  });
+  dlg.addEventListener('click', e => { if (e.target === dlg || e.target.classList.contains('viewer-inner')) dlg.close(); });
+})();
+</script>
+</body>
+</html>
