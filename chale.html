@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>O chalé | Chalé Brisa do Lago – Sapucaí-Mirim, Serra da Mantiqueira</title>
+<meta name="description" content="Tudo sobre o Chalé Brisa do Lago: fotos, comodidades, regras da hospedagem e consulta de datas pelo WhatsApp. Chalé para casais com hidromassagem e lareira em Sapucaí-Mirim (MG).">
+<meta property="og:type" content="website">
+<meta property="og:title" content="O chalé – Brisa do Lago">
+<meta property="og:description" content="Fotos, comodidades e regras do Chalé Brisa do Lago, na Serra da Mantiqueira.">
+<meta property="og:image" content="img-real/foto5.jpg">
+<meta property="og:locale" content="pt_BR">
+<meta name="theme-color" content="#1E2621">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,300..600;1,7..72,300..500&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --mist:#E8ECE5;
+  --paper:#F6F7F3;
+  --ink:#1E2621;
+  --ink-soft:#4A544D;
+  --moss:#46553C;
+  --cedar:#9A5B32;
+  --dusk:#D9C79F;
+  --line:rgba(30,38,33,.16);
+  --serif:'Literata', Georgia, serif;
+  --sans:'Hanken Grotesk', system-ui, sans-serif;
+  --wrap:1180px;
+  --gutter:clamp(20px,4vw,40px);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:84px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{background:var(--mist);color:var(--ink);font:400 17px/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--cedar);outline-offset:3px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--gutter)}
+h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.01em;line-height:1.15}
+h2{font-size:clamp(26px,3vw,34px);margin-bottom:20px}
+h3{font-size:20px;line-height:1.3}
+p{max-width:62ch}
+.muted{color:var(--ink-soft)}
+.tbd{color:var(--cedar);font-weight:600}
+
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;white-space:nowrap;
+  background:var(--ink);color:var(--paper);padding:15px 26px;border-radius:999px;border:0;cursor:pointer;
+  font:600 16px/1 var(--sans);text-decoration:none;transition:background-color .2s;
+}
+.btn:hover{background:var(--moss)}
+.btn svg{width:18px;height:18px;flex:none}
+.link{font-weight:500;text-decoration:underline;text-decoration-color:var(--cedar);text-underline-offset:5px;text-decoration-thickness:1px}
+.link:hover{color:var(--cedar)}
+
+/* Cabeçalho (igual à página inicial) */
+.site-header{position:sticky;top:0;z-index:50;background:rgba(232,236,229,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.site-header .wrap{display:flex;align-items:center;justify-content:space-between;height:68px;gap:24px}
+.logo{font-family:var(--serif);font-size:22px;text-decoration:none;white-space:nowrap}
+.nav{display:flex;align-items:center;gap:30px;list-style:none;font-size:15px}
+.nav a{text-decoration:none}
+.nav a:not(.btn):hover{color:var(--cedar)}
+.nav a[aria-current]{text-decoration:underline;text-decoration-color:var(--cedar);text-underline-offset:6px}
+.nav .btn{padding:11px 20px;font-size:15px}
+.nav .sm{display:none}
+.menu-btn{display:none;width:44px;height:44px;background:none;border:0;border-radius:999px;color:var(--ink);cursor:pointer;position:relative;flex:none}
+.menu-btn span{position:absolute;left:12px;right:12px;height:1.5px;background:currentColor;border-radius:2px;transition:transform .25s,opacity .2s}
+.menu-btn span:nth-child(1){top:15px}
+.menu-btn span:nth-child(2){top:21px}
+.menu-btn span:nth-child(3){top:27px}
+.menu-btn[aria-expanded="true"] span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.menu-btn[aria-expanded="true"] span:nth-child(2){opacity:0}
+.menu-btn[aria-expanded="true"] span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+.menu-btn:hover{background:rgba(30,38,33,.06)}
+.mobile-menu{display:none}
+@media (max-width:860px){
+  .site-header .wrap{position:relative}
+  .menu-btn{display:block;margin-left:auto;order:2}
+  .nav{order:1;gap:12px}
+  .nav li:not(:last-child){display:none}
+  .nav .btn{padding:10px 16px}
+  .mobile-menu{position:absolute;top:100%;left:0;right:0;background:var(--mist);border-bottom:1px solid var(--line);list-style:none;padding:8px var(--gutter) 16px}
+  .mobile-menu.open{display:block}
+  .mobile-menu a{display:block;padding:12px 0;text-decoration:none;font-size:17px;border-top:1px solid var(--line)}
+  .mobile-menu li:first-child a{border-top:0}
+}
+@media (max-width:480px){
+  .site-header .wrap{gap:10px}
+  .nav .lg{display:none}
+  .nav .sm{display:inline}
+}
+@media (max-width:380px){.btn{padding:14px 20px;font-size:15px}}
+@media (max-width:360px){.logo{font-size:19px}.menu-btn{width:40px}.nav .btn{padding:9px 13px;font-size:14px}}
+@media (prefers-reduced-motion:reduce){.menu-btn span{transition:none}}
+
+/* Topo da página */
+.crumbs{padding-top:28px;font-size:15px;color:var(--ink-soft)}
+.crumbs a{text-decoration:none}
+.crumbs a:hover{color:var(--cedar)}
+.title{padding:16px 0 28px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:12px 40px}
+.title h1{font-size:clamp(34px,4.6vw,56px);font-weight:300;letter-spacing:-.02em}
+.title p{color:var(--ink-soft);font-size:16px}
+.title strong{color:var(--ink);font-weight:600}
+
+/* Galeria: uma foto grande e quatro menores */
+.gallery{position:relative;display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:repeat(2,minmax(0,1fr));gap:8px;height:clamp(360px,44vw,540px)}
+.gallery button{all:unset;cursor:zoom-in;position:relative;overflow:hidden;border-radius:4px;min-height:0}
+.gallery button:focus-visible{outline:2px solid var(--cedar);outline-offset:3px}
+.gallery button:first-child{grid-row:1 / span 2}
+.gallery img{width:100%;height:100%;object-fit:cover;transition:opacity .2s}
+.gallery button:hover img{opacity:.9}
+.gallery-wrap .all{
+  position:absolute;right:16px;bottom:16px;
+  background:var(--paper);color:var(--ink);border:0;border-radius:999px;padding:11px 18px;cursor:pointer;
+  font:600 15px var(--sans);box-shadow:0 2px 10px rgba(30,38,33,.18);
+}
+.gallery-wrap .all:hover{background:#fff}
+@media (max-width:760px){
+  .gallery{display:flex;height:auto;overflow-x:auto;scroll-snap-type:x mandatory;gap:8px;margin:0 calc(var(--gutter) * -1);padding:0 var(--gutter);scrollbar-width:none}
+  .gallery::-webkit-scrollbar{display:none}
+  .gallery button{flex:0 0 78%;scroll-snap-align:center;aspect-ratio:3/4}
+  .gallery-wrap .all{right:12px;bottom:12px}
+}
+.gallery-wrap{position:relative}
+
+/* Corpo: conteúdo + painel de reserva */
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:clamp(32px,5vw,72px);padding:56px 0 clamp(72px,9vw,120px);align-items:start}
+.block{padding:40px 0;border-top:1px solid var(--line)}
+.block:first-child{border-top:0;padding-top:0}
+.block > p + p{margin-top:16px}
+
+.specs{display:grid;grid-template-columns:repeat(4,auto);justify-content:start;gap:16px 48px;margin-top:32px}
+.specs dt{font-size:14px;color:var(--ink-soft)}
+.specs dd{font-family:var(--serif);font-size:20px;line-height:1.3}
+@media (max-width:620px){.specs{grid-template-columns:repeat(2,auto)}}
+
+.incl{display:grid;grid-template-columns:1fr 1fr;gap:32px 48px;margin-top:8px}
+.incl h3{margin-bottom:10px}
+.incl ul{list-style:none}
+.incl li{padding:9px 0 9px 22px;border-top:1px solid var(--line);position:relative;font-size:16px}
+.incl li::before{content:"";position:absolute;left:2px;top:19px;width:8px;height:8px;border-radius:50%;background:var(--moss)}
+@media (max-width:620px){.incl{grid-template-columns:1fr}}
+
+.breakfast{display:grid;grid-template-columns:200px 1fr;gap:28px;align-items:center;background:var(--paper);border-radius:4px;padding:20px}
+.breakfast img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:4px}
+.breakfast h3{margin-bottom:8px}
+.breakfast p{font-size:16px;color:var(--ink-soft)}
+.breakfast .link{display:inline-block;margin-top:14px;font-size:16px}
+@media (max-width:620px){.breakfast{grid-template-columns:1fr}.breakfast img{aspect-ratio:16/10}}
+
+.rules{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 32px}
+.rules dd,.specs dd{overflow-wrap:anywhere}
+.rules div{padding:14px 0;border-top:1px solid var(--line)}
+.rules dt{font-size:14px;color:var(--ink-soft)}
+.rules dd{font-family:var(--serif);font-size:20px}
+.policy{margin-top:28px}
+.policy h3{margin-bottom:6px}
+.policy p{font-size:16px;color:var(--ink-soft)}
+.policy + .policy{margin-top:20px}
+@media (max-width:620px){.rules{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 20px}}
+
+.where{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+.where iframe{width:100%;aspect-ratio:4/3;border:0;border-radius:4px;filter:saturate(.7)}
+@media (max-width:620px){.where{grid-template-columns:1fr}}
+
+.faq details{border-top:1px solid var(--line)}
+.faq details:last-child{border-bottom:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;padding:18px 40px 18px 0;position:relative;font-family:var(--serif);font-size:19px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";position:absolute;right:6px;top:50%;width:10px;height:10px;border-right:1.5px solid var(--ink);border-bottom:1.5px solid var(--ink);transform:translateY(-70%) rotate(45deg);transition:transform .2s}
+.faq details[open] summary::after{transform:translateY(-30%) rotate(-135deg)}
+.faq details p{padding-bottom:20px;color:var(--ink-soft);font-size:16px}
+
+/* Painel de reserva */
+.book{position:sticky;top:92px;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:28px}
+.book h2{font-size:26px;margin-bottom:6px}
+.book .price{font-size:15px;color:var(--ink-soft);margin-bottom:22px}
+.book .price strong{font-family:var(--serif);font-weight:400;font-size:26px;color:var(--ink)}
+.fields{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);border:1px solid var(--line);border-radius:6px;overflow:hidden;background:#fff}
+.field{display:block;min-width:0;padding:10px 12px;border-top:1px solid var(--line)}
+.field:nth-child(-n+2){border-top:0}
+.field:nth-child(2){border-left:1px solid var(--line)}
+.field.full{grid-column:1 / -1}
+.field span{display:block;font-size:13px;color:var(--ink-soft)}
+.field input,.field select{all:unset;display:block;width:100%;min-width:0;box-sizing:border-box;font:500 15px var(--sans);color:var(--ink);padding-top:2px;cursor:pointer;min-height:26px}
+.field:focus-within{outline:2px solid var(--cedar);outline-offset:-2px}
+.summary{margin:18px 0 0;font-size:15px;color:var(--ink-soft);min-height:24px}
+.summary.error{color:#9B2C1F}
+.book .btn{width:100%;margin-top:16px}
+.book .note{font-size:14px;color:var(--ink-soft);text-align:center;margin-top:12px}
+.pay{margin-top:22px;padding-top:18px;border-top:1px solid var(--line);font-size:15px}
+.pay h3{font-family:var(--sans);font-size:14px;font-weight:600;margin-bottom:6px}
+.pay ul{list-style:none;color:var(--ink-soft)}
+.pay li{padding:2px 0}
+
+@media (max-width:960px){
+  .layout{grid-template-columns:minmax(0,1fr)}
+  .layout aside{order:-1}
+  .book{position:static}
+}
+
+/* Barra fixa no celular */
+.bar{display:none}
+@media (max-width:960px){
+  .bar{
+    display:flex;align-items:center;justify-content:space-between;gap:16px;
+    position:fixed;left:0;right:0;bottom:0;z-index:40;
+    background:var(--paper);border-top:1px solid var(--line);
+    padding:12px var(--gutter) calc(12px + env(safe-area-inset-bottom));
+    transform:translateY(110%);transition:transform .25s;
+  }
+  .bar.show{transform:none}
+  .bar p{font-size:14px;color:var(--ink-soft);line-height:1.3}
+  .bar strong{display:block;color:var(--ink);font-size:16px}
+  .bar .btn{padding:12px 20px;font-size:15px}
+  footer{padding-bottom:110px !important}
+}
+@media (prefers-reduced-motion:reduce){.bar{transition:none}}
+
+/* Visualizador de fotos */
+dialog.viewer{border:0;padding:0;background:transparent;max-width:none;max-height:none;width:100vw;height:100dvh;color:var(--paper)}
+dialog.viewer::backdrop{background:rgba(20,26,22,.94)}
+.viewer-inner{height:100%;display:grid;grid-template-rows:auto 1fr auto;padding:16px var(--gutter) 24px}
+.viewer-top{display:flex;justify-content:space-between;align-items:center;font-size:15px}
+.viewer-top button,.viewer-nav button{background:none;border:1px solid rgba(246,247,243,.35);color:var(--paper);border-radius:999px;padding:9px 18px;font:500 15px var(--sans);cursor:pointer}
+.viewer-top button:hover,.viewer-nav button:hover{border-color:var(--paper)}
+.viewer figure{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:0;padding:16px 0}
+.viewer figure img{max-height:calc(100dvh - 190px);width:auto;max-width:100%;object-fit:contain;border-radius:4px}
+.viewer figcaption{color:rgba(246,247,243,.75);font-size:14px;margin-top:10px}
+.viewer-nav{display:flex;justify-content:center;gap:12px}
+
+footer{border-top:1px solid var(--line);padding:48px 0 calc(48px + env(safe-area-inset-bottom))}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px 48px;font-size:15px;color:var(--ink-soft)}
+footer .logo{color:var(--ink)}
+footer ul{list-style:none;display:flex;flex-wrap:wrap;gap:8px 32px}
+footer a{text-decoration:none}
+footer a:hover{color:var(--cedar)}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">Brisa do Lago</a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+    <ul class="nav">
+      <li><a href="chale.html" aria-current="page">O chalé</a></li>
+      <li><a href="index.html#dia">Um dia aqui</a></li>
+      <li><a href="#fotos-chale">Fotos</a></li>
+      <li><a href="index.html#chegar">Como chegar</a></li>
+      <li><a class="btn" href="#reserva"><span class="lg">Consultar datas</span><span class="sm">Reservar</span></a></li>
+    </ul>
+    <ul class="mobile-menu" id="mobile-menu">
+      <li><a href="index.html">Início</a></li>
+      <li><a href="#incluido">O que está incluído</a></li>
+      <li><a href="#regras">Regras da hospedagem</a></li>
+      <li><a href="#onde">Localização</a></li>
+      <li><a href="#duvidas">Dúvidas</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <p class="crumbs"><a href="index.html">Início</a> / O chalé</p>
+    <div class="title">
+      <h1>Chalé Brisa do Lago</h1>
+      <p><strong>Nota 5,0 em 79 avaliações</strong> no Airbnb. Sapucaí-Mirim, Serra da Mantiqueira (MG).</p>
+    </div>
+
+    <div class="gallery-wrap" id="fotos-chale">
+      <div class="gallery" id="gallery">
+        <button type="button" data-i="0"><img src="img-real/foto5.jpg" width="800" height="600" alt="Ambiente integrado com hidromassagem, cama de casal, poltronas e mesa sob forro de madeira"></button>
+        <button type="button" data-i="1"><img src="img-real/foto8.jpg" width="368" height="800" alt="O chalé refletido no lago, com uma araucária ao lado"></button>
+        <button type="button" data-i="2"><img src="img-real/foto6.jpg" width="600" height="800" alt="Hidromassagem junto à janela com vista para a mata"></button>
+        <button type="button" data-i="3"><img src="img-real/foto3.jpg" width="600" height="800" alt="Cama queen com cabeceira de madeira"></button>
+        <button type="button" data-i="4"><img src="img-real/foto2.jpg" width="450" height="800" alt="Deck com duas cadeiras de madeira à beira do lago"></button>
+      </div>
+      <button type="button" class="all" id="all-photos">Ver todas as 12 fotos</button>
+    </div>
+
+    <div class="layout">
+      <div>
+        <section class="block" id="visao-geral">
+          <h2>Visão geral</h2>
+          <p>Um chalé só, numa propriedade com lago de peixes e araucárias, a 4 km do centro de Sapucaí-Mirim. Quarto, sala e cozinha dividem o mesmo ambiente sob um forro de cedro, com janelas grandes para a mata.</p>
+          <p>A hidromassagem dupla fica no canto de duas janelas de vidro, de frente para o verde. Para as noites frias, tem lareira. A chegada é por fechadura eletrônica, no horário de vocês.</p>
+          <dl class="specs">
+            <div><dt>Hóspedes</dt><dd>Até 2</dd></div>
+            <div><dt>Cama</dt><dd>Queen</dd></div>
+            <div><dt>Área</dt><dd class="tbd">[CONFIRMAR] m²</dd></div>
+            <div><dt>Vista</dt><dd>Lago e mata</dd></div>
+          </dl>
+        </section>
+
+        <section class="block" id="incluido">
+          <h2>O que está incluído</h2>
+          <div class="incl">
+            <div>
+              <h3>Quarto e conforto</h3>
+              <ul>
+                <li>Cama queen com enxoval de 300 fios</li>
+                <li>Lareira</li>
+                <li>Ar-condicionado quente e frio</li>
+                <li>Ventilador de teto</li>
+                <li>TV e Wi-Fi Starlink</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Banho</h3>
+              <ul>
+                <li>Hidromassagem dupla com vista para a mata</li>
+                <li>Chuveiro com aquecimento a gás</li>
+                <li>Roupões e secador de cabelo</li>
+                <li>Amenities e sais de banho para a hidro</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Cozinha</h3>
+              <ul>
+                <li>Cooktop e forno</li>
+                <li>Airfryer e micro-ondas</li>
+                <li>Frigobar</li>
+                <li>Cafeteira Nespresso</li>
+                <li>Aparelho de fondue</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Área externa e chegada</h3>
+              <ul>
+                <li>Varanda privativa com vista</li>
+                <li>Deck com cadeiras à beira do lago</li>
+                <li>Self check-in com fechadura inteligente</li>
+                <li>Estacionamento grátis na propriedade</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="block">
+          <div class="breakfast">
+            <img src="img-real/foto2.jpg" width="450" height="800" loading="lazy" alt="Deck à beira do lago com cadeiras de madeira">
+            <div>
+              <h3>Café da manhã opcional</h3>
+              <p>Uma cesta com pães, bolo caseiro, frutas e quitutes da serra, entregue na porta do chalé. O valor é combinado na reserva.</p>
+              <a class="link" href="https://wa.me/5512988227967?text=Ol%C3%A1!%20Gostaria%20de%20saber%20o%20valor%20da%20cesta%20de%20caf%C3%A9%20da%20manh%C3%A3." target="_blank" rel="noopener">Perguntar o valor da cesta</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="block" id="regras">
+          <h2>Regras da hospedagem</h2>
+          <dl class="rules">
+            <div><dt>Check-in</dt><dd class="tbd">[CONFIRMAR] 14h</dd></div>
+            <div><dt>Check-out</dt><dd class="tbd">[CONFIRMAR] 11h</dd></div>
+            <div><dt>Capacidade</dt><dd>2 hóspedes</dd></div>
+          </dl>
+          <div class="policy">
+            <h3>Pets</h3>
+            <p class="tbd">[CONFIRMAR] O chalé não recebe animais de estimação.</p>
+          </div>
+          <div class="policy">
+            <h3>Cancelamento</h3>
+            <p class="tbd">[CONFIRMAR] Descreva aqui a política: até quantos dias antes o reembolso é integral, quando vira crédito e a partir de quando não há reembolso.</p>
+          </div>
+          <div class="policy">
+            <h3>Durante a estadia</h3>
+            <p>O chalé é para descanso. Pedimos silêncio a partir das 22h e que não sejam recebidas visitas. <span class="tbd">[CONFIRMAR]</span></p>
+          </div>
+        </section>
+
+        <section class="block" id="onde">
+          <h2>Localização</h2>
+          <div class="where">
+            <div>
+              <p>Estrada do Bicudo, Sapucaí-Mirim (MG), a cerca de 4 km do centro. Perto de Campos do Jordão, Santo Antônio do Pinhal, São Bento do Sapucaí e Gonçalves.</p>
+              <p class="muted" style="margin-top:14px">A localização exata e as instruções de chegada vão pelo WhatsApp depois da reserva.</p>
+            </div>
+            <iframe title="Mapa com a localização do Chalé Brisa do Lago" src="https://maps.google.com/maps?q=-22.734107,-45.7680278&z=13&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </section>
+
+        <section class="block faq" id="duvidas">
+          <h2>Dúvidas</h2>
+          <details>
+            <summary>Como funciona o check-in?</summary>
+            <p>Pela fechadura inteligente. Vocês recebem a senha antes de chegar e entram sem precisar encontrar ninguém.</p>
+          </details>
+          <details>
+            <summary>O café da manhã está incluído?</summary>
+            <p>É opcional. Vem numa cesta entregue no chalé, e o valor é combinado na reserva.</p>
+          </details>
+          <details>
+            <summary>Tem internet?</summary>
+            <p>Tem. Wi-Fi Starlink via satélite, estável mesmo na serra.</p>
+          </details>
+          <details>
+            <summary>Como é o acesso de carro?</summary>
+            <p class="tbd">[CONFIRMAR] Descreva a estrada: quantos km são de terra e se carro comum chega com chuva.</p>
+          </details>
+          <details>
+            <summary>Quais as formas de pagamento?</summary>
+            <p class="tbd">[CONFIRMAR] Pix e cartão de crédito. Informe se há desconto no Pix e em quantas vezes o cartão parcela.</p>
+          </details>
+        </section>
+      </div>
+
+      <aside id="reserva">
+        <form class="book" id="book-form" novalidate>
+          <h2>Consultar datas</h2>
+          <p class="price">A partir de <strong class="tbd">R$ [VALOR]</strong> por noite</p>
+          <div class="fields">
+            <label class="field"><span>Entrada</span><input type="date" id="checkin" required></label>
+            <label class="field"><span>Saída</span><input type="date" id="checkout" required></label>
+            <label class="field full"><span>Hóspedes</span>
+              <select id="guests">
+                <option value="2" selected>2 hóspedes</option>
+                <option value="1">1 hóspede</option>
+              </select>
+            </label>
+          </div>
+          <p class="summary" id="summary" aria-live="polite">Escolha as datas para ver quantas noites.</p>
+          <button type="submit" class="btn">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3c.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+            Consultar no WhatsApp
+          </button>
+          <p class="note">A anfitriã confirma a disponibilidade e o valor. Nada é cobrado agora.</p>
+          <div class="pay">
+            <h3>Formas de pagamento</h3>
+            <ul class="tbd">
+              <li>[CONFIRMAR] Pix</li>
+              <li>[CONFIRMAR] Cartão de crédito</li>
+            </ul>
+          </div>
+        </form>
+      </aside>
+    </div>
+  </div>
+</main>
+
+<div class="bar" id="bar" aria-hidden="true">
+  <p><strong class="tbd">R$ [VALOR] por noite</strong>Chalé para 2 pessoas</p>
+  <a class="btn" href="#reserva" tabindex="-1">Consultar datas</a>
+</div>
+
+<dialog class="viewer" id="viewer" aria-label="Fotos do chalé">
+  <div class="viewer-inner">
+    <div class="viewer-top">
+      <span id="viewer-count"></span>
+      <button type="button" id="viewer-close">Fechar</button>
+    </div>
+    <figure>
+      <img id="viewer-img" src="" alt="">
+      <figcaption id="viewer-cap"></figcaption>
+    </figure>
+    <div class="viewer-nav">
+      <button type="button" id="viewer-prev">Anterior</button>
+      <button type="button" id="viewer-next">Próxima</button>
+    </div>
+  </div>
+</dialog>
+
+<footer>
+  <div class="wrap">
+    <a href="index.html" class="logo">Brisa do Lago</a>
+    <ul>
+      <li><a href="https://wa.me/5512988227967" target="_blank" rel="noopener">WhatsApp (12) 98822-7967</a></li>
+      <li><a href="[LINK INSTAGRAM]">Instagram [@CONFIRMAR]</a></li>
+      <li>Sapucaí-Mirim, Serra da Mantiqueira (MG)</li>
+    </ul>
+    <p>© 2026 Chalé Brisa do Lago</p>
+  </div>
+</footer>
+
+<script>
+// Dados do chalé usados pelo formulário. Preencha PRICE (número, em reais) quando tiver o valor da diária.
+const CHALET = {
+  name: 'Chalé Brisa do Lago',
+  whatsapp: '5512988227967',
+  price: null
+};
+
+const PHOTOS = [
+  ['img-real/foto5.jpg', 'Ambiente integrado com hidro, cama, poltronas e mesa'],
+  ['img-real/foto8.jpg', 'O chalé refletido no lago'],
+  ['img-real/foto6.jpg', 'A vista da hidromassagem'],
+  ['img-real/foto3.jpg', 'Quarto com cama queen'],
+  ['img-real/foto2.jpg', 'Deck à beira do lago'],
+  ['img-real/foto1.jpg', 'O chalé visto da margem'],
+  ['img-real/foto12.jpg', 'Hidromassagem junto à janela de canto'],
+  ['img-real/foto11.jpg', 'O quarto sob o forro de cedro'],
+  ['img-real/foto10.jpg', 'Sala com porta para a varanda'],
+  ['img-real/foto9.jpg', 'Cozinha e mesa para dois'],
+  ['img-real/foto7.jpg', 'Box do banheiro'],
+  ['img-real/foto4.jpg', 'Pia do banheiro']
+];
+
+// Menu do celular
+(() => {
+  const mb = document.querySelector('.menu-btn'), mm = document.getElementById('mobile-menu');
+  const set = open => {
+    mm.classList.toggle('open', open);
+    mb.setAttribute('aria-expanded', open);
+    mb.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
+  };
+  mb.addEventListener('click', () => set(!mm.classList.contains('open')));
+  mm.querySelectorAll('a').forEach(a => a.addEventListener('click', () => set(false)));
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') set(false); });
+})();
+
+// Visualizador de fotos
+(() => {
+  const dlg = document.getElementById('viewer');
+  const img = document.getElementById('viewer-img');
+  const cap = document.getElementById('viewer-cap');
+  const count = document.getElementById('viewer-count');
+  let i = 0;
+  const show = n => {
+    i = (n + PHOTOS.length) % PHOTOS.length;
+    img.src = PHOTOS[i][0]; img.alt = PHOTOS[i][1];
+    cap.textContent = PHOTOS[i][1];
+    count.textContent = (i + 1) + ' de ' + PHOTOS.length;
+  };
+  const open = n => { show(n); dlg.showModal(); };
+  document.querySelectorAll('#gallery button').forEach(b => b.addEventListener('click', () => open(+b.dataset.i)));
+  document.getElementById('all-photos').addEventListener('click', () => open(0));
+  document.getElementById('viewer-close').onclick = () => dlg.close();
+  document.getElementById('viewer-prev').onclick = () => show(i - 1);
+  document.getElementById('viewer-next').onclick = () => show(i + 1);
+  dlg.addEventListener('keydown', e => {
+    if (e.key === 'ArrowLeft') show(i - 1);
+    if (e.key === 'ArrowRight') show(i + 1);
+  });
+  dlg.addEventListener('click', e => { if (e.target === dlg || e.target.classList.contains('viewer-inner')) dlg.close(); });
+})();
+
+// Formulário de datas: monta a mensagem do WhatsApp
+(() => {
+  const form = document.getElementById('book-form');
+  const inEl = document.getElementById('checkin');
+  const outEl = document.getElementById('checkout');
+  const guests = document.getElementById('guests');
+  const summary = document.getElementById('summary');
+
+  const iso = d => new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
+  const br = s => s.split('-').reverse().join('/');
+  const money = v => v.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+  const today = new Date();
+  inEl.min = iso(today);
+  outEl.min = iso(new Date(today.getTime() + 864e5));
+
+  const nights = () => {
+    if (!inEl.value || !outEl.value) return 0;
+    return Math.round((new Date(outEl.value) - new Date(inEl.value)) / 864e5);
+  };
+
+  const update = () => {
+    summary.classList.remove('error');
+    if (inEl.value) {
+      const next = new Date(new Date(inEl.value).getTime() + 864e5);
+      outEl.min = next.toISOString().slice(0, 10);
+      if (outEl.value && outEl.value <= inEl.value) outEl.value = '';
+    }
+    const n = nights();
+    if (!n) { summary.textContent = 'Escolha as datas para ver quantas noites.'; return; }
+    let t = n + (n === 1 ? ' noite' : ' noites') + ', de ' + br(inEl.value) + ' a ' + br(outEl.value) + '.';
+    if (CHALET.price) t += ' Estimativa: ' + money(n * CHALET.price) + '.';
+    summary.textContent = t;
+  };
+  inEl.addEventListener('change', update);
+  outEl.addEventListener('change', update);
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    const n = nights();
+    if (!inEl.value || !outEl.value || n < 1) {
+      summary.textContent = 'Escolha a data de entrada e uma data de saída depois dela.';
+      summary.classList.add('error');
+      (inEl.value ? outEl : inEl).focus();
+      return;
+    }
+    const g = guests.value === '1' ? '1 hóspede' : '2 hóspedes';
+    const msg = 'Olá! Vi o site do ' + CHALET.name + ' e gostaria de consultar disponibilidade de '
+      + br(inEl.value) + ' a ' + br(outEl.value) + ' (' + n + (n === 1 ? ' noite' : ' noites') + '), para ' + g + '.';
+    window.open('https://wa.me/' + CHALET.whatsapp + '?text=' + encodeURIComponent(msg), '_blank', 'noopener');
+  });
+})();
+
+// Barra fixa no celular: aparece quando o formulário sai da tela
+(() => {
+  const bar = document.getElementById('bar');
+  const target = document.getElementById('reserva');
+  if (!('IntersectionObserver' in window)) return;
+  let past = false;
+  new IntersectionObserver(([e]) => {
+    past = !e.isIntersecting && e.boundingClientRect.top < 0;
+    bar.classList.toggle('show', past);
+    bar.setAttribute('aria-hidden', !past);
+    bar.querySelector('a').tabIndex = past ? 0 : -1;
+  }).observe(target);
+})();
+</script>
+</body>
+</html>
